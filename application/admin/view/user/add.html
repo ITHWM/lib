@@ -1,0 +1,55 @@
+{extend name="main/index" /}
+{block name="main"}
+<!-- Start right content -->
+<div class="content-page">
+    <!-- ============================================================== -->
+    <!-- Start Content here -->
+    <!-- ============================================================== -->
+    <div class="content">
+        <!-- Your awesome content goes here -->
+        <div class="row">
+
+            <div class="col-sm-12 portlets">
+
+                <div class="widget">
+                    <div class="widget-header transparent">
+                        <h2><strong>添加</strong> 用户</h2>
+                        <div class="additional-btn">
+                            <a href="#" class="hidden reload"><i class="icon-ccw-1"></i></a>
+                            <a href="#" class="widget-toggle"><i class="icon-down-open-2"></i></a>
+                            <a href="#" class="widget-close"><i class="icon-cancel-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="widget-content padding">
+                        <div id="basic-form">
+                            <form role="form" action="{:url('admin/user/save')}" method="post">
+                                <div class="form-group">
+                                    <label for="username">管理员账号</label>
+                                    <input type="text" name="username" class="form-control" id="username" placeholder="输入管理员账号">
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">管理员名称</label>
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="输入管理员名称">
+                                </div>
+                                <div class="form-group">
+                                    <label for="userpass">密码</label>
+                                    <input type="password" name="userpass" class="form-control" id="userpass" placeholder="输入密码">
+                                </div>
+                                
+                                <button type="submit" class="btn btn-success">添加</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End content here -->
+    <!-- ============================================================== -->
+
+</div>
+<!-- End right content -->
+{/block}

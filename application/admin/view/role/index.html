@@ -1,0 +1,90 @@
+{extend name="main/index" /}
+{block name="main"}
+<!-- Start right content -->
+<div class="content-page">
+    <!-- ============================================================== -->
+    <!-- Start Content here -->
+    <!-- ============================================================== -->
+    <div class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="widget">
+                    <div class="widget-header transparent">
+                        <h2><strong>角色</strong> 列表</h2>
+                        <div class="additional-btn">
+                            <a href="#" class="hidden reload"><i class="icon-ccw-1"></i></a>
+                            <a href="#" class="widget-toggle"><i class="icon-down-open-2"></i></a>
+                            <a href="#" class="widget-close"><i class="icon-cancel-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="widget-content">
+                        <div class="data-table-toolbar">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <form role="form">
+                                        <input type="text" class="form-control" placeholder="搜索...">
+                                    </form>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="toolbar-btn-action">
+                                        <a href="{:url('admin/role/create')}" class="btn btn-success"><i class="fa fa-plus-circle"></i>新增</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+                            <table data-sortable class="table table-hover table-striped">
+                                <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>角色名</th>
+                                    <th>备注</th>
+                                    <th data-sortable="false">操作</th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                {volist name="list" id="v"}
+                                <tr>
+                                    <td>{$v.id}</td>
+                                    <td><strong>{$v.name}</strong></td>
+                                    <td>{$v.remark}</td>
+                                    <td>
+                                        <div>
+                                            <a href="{:url('admin/role/node',['id'=>$v['id'],'status'=>$v['status']])}" data-toggle="tooltip" title="分类权限" class="btn btn-default"><i
+                                                    class="glyphicon glyphicon-lock"></i>
+                                                </a>
+                                            <a href="{:url('admin/role/edit',['id'=>$v['id']])}" data-toggle="tooltip" title="修改" class="btn btn-success ">
+                                                   <i class="glyphicon glyphicon-edit"></i>
+                                               </a>
+                                            <a href="{:url('admin/role/delete',['id'=>$v['id']])}" data-toggle="tooltip" title="删除" class="btn btn-danger">
+                                                <i class="glyphicon glyphicon-trash"></i>
+                                                </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                {/volist}
+                                </tbody>
+                            </table>
+                        </div>
+
+                       <!--  <div class="data-table-toolbar">
+                            <ul class="pagination">
+                                <li class="disabled"><a href="#">&laquo;</a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- End Content here -->
+</div>
+
+{/block}

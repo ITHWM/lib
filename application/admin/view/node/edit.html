@@ -1,0 +1,55 @@
+{extend name="main/index" /}
+{block name="main"}
+<!-- Start right content -->
+<div class="content-page">
+    <!-- ============================================================== -->
+    <!-- Start Content here -->
+    <!-- ============================================================== -->
+    <div class="content">
+        <!-- Your awesome content goes here -->
+        <div class="row">
+
+            <div class="col-sm-12 portlets">
+
+                <div class="widget">
+                    <div class="widget-header transparent">
+                        <h2><strong>修改</strong> 权限</h2>
+                        <div class="additional-btn">
+                            <a href="#" class="hidden reload"><i class="icon-ccw-1"></i></a>
+                            <a href="#" class="widget-toggle"><i class="icon-down-open-2"></i></a>
+                            <a href="#" class="widget-close"><i class="icon-cancel-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="widget-content padding">
+                        <div id="basic-form">
+                            <form role="form" action="{:url('admin/node/update',['id'=>$data['id']])}" method="post">
+                                <input type="hidden" name="_method" value="PUT">
+                                <div class="form-group">
+                                    <label for="name">权限描述</label>
+                                    <input type="text" name="name" value="{$data['name']}" class="form-control" id="name" placeholder="输入权限描述">
+                                </div>
+                                <div class="form-group">
+                                    <label for="mname">模块名</label>
+                                    <input type="text" name="mname" value="{$data['mname']}" class="form-control" id="mname" placeholder="输入模块名">
+                                </div>
+                                <div class="form-group">
+                                    <label for="aname">方法名</label>
+                                    <input type="text" name="aname" value="{$data['aname']}" class="form-control" id="aname" placeholder="输入方法名">
+                                </div>
+                                <button type="submit" class="btn btn-success">修改</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- End content here -->
+    <!-- ============================================================== -->
+
+</div>
+<!-- End right content -->
+{/block}

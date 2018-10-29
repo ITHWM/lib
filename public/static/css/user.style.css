@@ -1,0 +1,136 @@
+body{
+	background:#F9F9F9;
+}
+.mb16{
+	margin-bottom:16px;
+}
+.container-fluid{
+	padding:0;
+}
+.container{
+	padding:0;margin:0 auto;width:1200px;
+}
+#main{
+	height:880px;
+}
+#main .pub-top{
+	height:100px;margin-top:20px;padding:0;
+}
+#main .pub-top .pub-top-links{
+	width:625px;height:36px;margin-top:45px;
+}
+#main .pub-top .pub-top-links ul li{
+	width:125px;height:36px;float:left;
+}
+.main-option{
+	height:580px;
+	/* background:#0094E2; */
+	background:url('../images/login/login-bg.jpg') no-repeat center center;
+	position:relative;
+}
+#main .main-option .main-user{
+	width:1200px;height:580px;display:inline-block;
+}
+#main .main-option .login-panel{
+	position:absolute;z-index:99;
+	width:35%;height:580px;right:0;margin-right: 3%;
+}
+
+#main .main-option .login-panel .login-title{
+	font-size: 20px;height:30px;
+    margin-bottom: 10px;font-weight:700;
+    color: #fff;
+    margin-top: 12%;text-align:center;line-height:30px;
+}
+#main .main-option .login-panel .login-box-form{
+	height:435px;width:100%;background:#fff;margin-top:17px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place{
+	width: 80%;padding-top: 10px;
+	margin:0 auto;height:348px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-show-place-title{
+	height:45px;font-size: 18px;line-height: 45px;
+    color: #666666;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form{
+	height:100%;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .login-input-border{
+	height:45px;border:0.5px solid #e6e6e6;margin-bottom:15px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .login-input-border input{
+	display:inline-block;width:100%;height:100%;padding:12px 10px;border:0;background: #fff;
+	color: #333;font-size: 14px;
+}
+
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .forget-pass{
+	height:18px;margin-top:16px;width:100%;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .forget-pass span{
+	color:#999;font-size:12px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .user-form-sub-box{
+	height:44px;border:1px solid #E91206;margin-top:16px;border-radius:3px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .user-form-sub-box a{
+	background:#E91206;color:#fff;font-size: 16px;display:inline-block;height:100%;width:100%;
+	text-align:center;line-height:44px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .user-form-sub-box a:hover{
+	background:#F51104;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .companys{
+	height:24px;color:#999;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .companys a{
+	width:30px;height:24px;display:inline-block;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .companys a:hover{
+	opacity:0.8;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .companys a#companys-weixin{
+	background:url('../images/login/login-icons.png') no-repeat;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .companys a#companys-zhifubao{
+	background:url('../images/login/login-icons.png') no-repeat left -58px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .companys a#companys-qq{
+	background:url('../images/login/login-icons.png') no-repeat left -87px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .companys a#companys-xinlang{
+	background:url('../images/login/login-icons.png') no-repeat left -115px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .user-form-gotoreg-box{
+	height:44px;border:1px solid #E5E5E5;margin-top:16px;border-radius:3px;margin-bottom:16px;
+}
+#main .main-option .login-panel .login-box-form .login-show-place .login-form .user-form-gotoreg-box a{
+	color:#999;font-size: 16px;display:inline-block;height:100%;width:100%;
+	text-align:center;line-height:44px;
+}
+#main .login-copy{
+	margin-top:30px;height:80px;text-align:center;font-size:12px;color:#999;
+}
+#main .login-copy a{
+	color:#999;
+}
+#main .login-copy a:hover{
+	color:#545454;font-weight:700;
+}
+#main .login-copy span{
+	color:#ddd;margin:0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

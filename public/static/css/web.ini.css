@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+body{font:14px/1.5 verdana,sans-serif;background:#F2F2F2;}
+body,td,th,input,textarea{font:14px/1.5 verdana,sans-serif;}
+ul,li{list-style: none;}
+a{text-decoration: none;transition:0.2s;}
+a:hover{text-decoration: none;color:#f60;}
+a:active{text-decoration: none;}
+a:visited{text-decoration: none;}
+.img-responsive{width:100%;display:block;}
+.clearfix{clear:both;}
+.fleft{float:left;}
+.fright{float:right;}
+.mr10{margin-right:10px;}
+.mr20{margin-right:20px;}
+.mr30{margin-right:30px;}
+.ml10{margin-left:10px;}
+.mr3{margin-right:3px;}
+.mb5{margin-bottom:5px;}
+.mr60{margin-right:60px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.wbg{background:#fff}
+.black-qj{color:#333}
+.danlv-bg{background:#F1FFF0}
+.danhong-bg{background:#FFF5EB}
+.dahong-qj{color:red}
+.jiesuan-hong-qj{color:#E50007;}
+.chenghuang-bg{background:#F60}
+.chenghuang-qj{color:#f60;}
+.gray-qj{color:#999BA9;}
+.danhei-bg{background:#333;}
+
+.layui-layer-dialog .layui-layer-padding {
+    padding: 20px 20px 20px 55px;
+    text-align: left;color:#fff;font-weight:700;
+}
+.layui-layer-btn{
+	float:left !important;margin-left:10px;
+}

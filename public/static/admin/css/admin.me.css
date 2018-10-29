@@ -1,0 +1,49 @@
+.user-cont-right{
+	width:750px;overflow:hidden;min-height:457px;background:#fff;padding:5px 20px;
+}
+
+#addpage-sub-tit{
+	height:42px;border-bottom:1px solid #eee;
+}
+#addpage-sub-tit div{
+	height:42px;width:86px;border-bottom:1px solid #f60;text-align:center;line-height:42px;
+}
+
+.addpage-sub-form{
+	height:223px;margin-top:20px;padding-left:10px;
+}
+.addpage-sub-form ul li{
+	height:34px;margin-bottom:10px;
+}
+.addpage-sub-form ul li>label{
+	width:90px;font-size:12px;font-weight:300;height:34px;line-height:34px;text-align:right;
+}
+.addpage-sub-form ul li input[type=text],.addpage-sub-form ul li input[type=password],.addpage-sub-form ul li input[type=email]{
+	width:370px;height:34px;padding:6px 12px;font-size: 14px;border: 1px solid #ccc;
+	display:inline-block;
+}
+.addpage-sub-form ul li .sex-up{
+	height:34px;line-height:34px;font-size:12px;
+}
+.addpage-sub-form ul p.addpage-sub-tips{
+	display:inline-block;font-size:12px;margin-left:100px;
+}
+.addpage-sub-form ul li .submit.addpage-sub-form{
+	width:100px;height:34px;padding:6px 14px;background:#f60;color:#fff;font-weight:700;font-size:14px;
+	display:inline-block;text-align:center;line-height:20px;
+}
+
+.addpage-sub-form ul li a label{
+	font-size:12px;font-weight:500;color:#333;cursor:pointer;
+}
+.addpage-sub-form ul li.authoritylist{
+	min-height:60px;
+}
+
+.addpage-sub-form ul li .submit-addpage-sub-form{
+	width:100px;height:34px;padding:6px 14px;background:#f60;color:#fff;font-weight:700;font-size:14px;
+	display:inline-block;text-align:center;line-height:20px;
+}
+
+
+
